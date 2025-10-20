@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HelpAnimal Заявка</title>
+    <h1 align="center">Заявка для просмотра питомца</h1>
+</head>
+<style>
+    body {
+background-image: url(/Users/sophiazhurkova/Downloads/sirenevye-akrilovye-tekstury-fona-oboi.jpg);
+    font-family: Arial;
+    }
+</style>
+<body>
+    <table border="1" cellpadding="2" cellspacing="0" align="center" width="600" bgcolor="white">
+        <tr>
+            <td align="center"><a href="./01.html" target="_self">
+                    <h3>Начальная страница</h3>
+                </a></td>
+        </tr>
+        <tr>
+            <td align="center"><a href="https://yunacenter.ru/" target="_blank">
+                    <h3>Сайт нашего партнера</h3>
+                </a></td>
+        </tr>
+        <tr>
+            <td align="center"><a href="./02.html" target="_self">
+                    <h3>Паспорт организации</h3>
+                </a></td>
+        </tr>
+        <tr>
+            <td align="center"><a href="./03.html" target="_self">
+                    <h3>Заявка для заполнения</h3>
+                </a></td>
+        </tr>
+        <tr>
+            <td align="center"><a href="./04.html" target="_self">
+                    <h3>Алгоритмическая задача</h3>
+                </a></td>
+        </tr>
+        <tr>
+            <td align="center"><a href="./05.html" target="_self"><h3>Животные в приюте</h3><img src="/Users/sophiazhurkova/Downloads/pawprint_1344623.png" height="30px"></a></td>
+        </tr>
+    </table>
+
+    <form action="https://www.google.com/?hl=ru" id="UserEnter" name="UserEnter" target="_blank">
+        <p>Для поисковика:<input type="hidden" name="q" value="search"></p>
+        <p>Фамилия: <input type="Text" name="surname" size=20 value="Ввод"></p>
+        <p>Возраст: <input type="Number" name="age" size=20 value="Возраст"></p>
+        <p>Место проживания:
+            <input type="Radio" name="place" value="Moscow">Москва
+            <input type="Radio" name="place" value="Saint-Petersburg">Санкт-Петербург
+            <input type="Radio" name="place" value="Nizhny" checked>Нижний Новгород
+        </p>
+
+        <p>Выбор питомца:
+            <input type="Checkbox" name="choice" value="Собака" checked>Собака
+            <input type="Checkbox" name="choice" value="Кошка" checked>Кошка
+            <input type="Checkbox" name="choice" value="Хомяк" checked>Хомяк
+        </p>
+
+        <p>Наличие домашнего питомца
+            <select name="havingananimal">
+                <OPTION value="Есть">Есть</OPTION>
+                <OPTION value="Нет">Нет</OPTION>
+            </select>
+        </p>
+
+        <p> Дополнительная информация:
+            <br>
+            <TEXTAREA cols=60 rows=4 name="textarea">Расскажите о себе</TEXTAREA>
+        </p>
+
+        <p>Дата обращения: <input type="date" name="user_date" value='2025-01-01'></p>
+        <p>Кодовое слово: <input type="Password" name="password" size=15 value="123456"></p>
+        <p>Название заявки: <input type="Техт" name="000_file_name" value="Н_ОW_Г_326510_1_Ivanov.txt" size='30'></p>
+
+        <p> Тип записи в файл:<select name="010_mode">
+                <OPTION value="a">a - дозаписать в файл</OPTION>
+                <OPTION value="w">w - очисить файл и записать в файл</OPTION>
+            </select></p>
+
+        <input type="hidden" name="function" value="page">
+        <input type="hidden" name="page_id" value="3">
+
+        <p>
+            <input type="Reset" name="Reset" value="Обновить">
+            <input type="Submit" name="submit" value="Отправить">
+        </p>
+
+    </form>
+</body>
+
+</html>

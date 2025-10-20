@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../LESSON"
+		},
+		{
+			"path": "../2025_BWT"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "2025_BWT"
+	}
+}
