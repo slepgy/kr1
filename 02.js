@@ -9,31 +9,31 @@ function verify() {
 
  let result, check;
     if (a <= m && b <= k) {
-        result = "Войдет";
+        result = "Пройдет";
         check = true;
     }
     else if (a <= m && c <= k) {
-        result = "Войдет";
+        result = "Пройдет";
         check = true;
     }
     else if (b <= m && a <= k) {
-        result = "Войдет";
+        result = "Пройдет";
         check = true;
     }
     else if (b <= m && c <= k) {
-        result = "Войдет";
+        result = "Пройдет";
         check = true;
     }
     else if (c <= m && a <= k) {
-        result = "Войдет";
+        result = "Пройдет";
         check = true;
     }
     else if (c <= m && b <= k) {
-        result = "Войдет";
+        result = "Пройдет";
         check = true;
     }
     else {
-        result = "Не войдет";
+        result = "Не пройдет";
         check = false;
     }
     document.getElementById("result").value = result;
@@ -42,7 +42,7 @@ function verify() {
 function send() {
     let resultValue = document.getElementById("result").value;
     
-    if (resultValue === "Войдет") {
+    if (resultValue === "Пройдет") {
         document.getElementById("UserEnter").submit();
     } 
     else {
